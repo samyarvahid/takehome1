@@ -25,6 +25,9 @@ nav {
 	font-size: 9pt;
 	font-weight: bold;
 }
+nav>ul>li {
+	list-style-type: none;
+}
 
 article {
 	background-color: #ffff00;
@@ -32,6 +35,9 @@ article {
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 7;
+}
+article>h2 {
+	margin-top: 0;
 }
 
 aside {
